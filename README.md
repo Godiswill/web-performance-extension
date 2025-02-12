@@ -1,5 +1,7 @@
 # web 性能分析 chrome 插件
 
+## 隐私申明：本插件仅使用 Performance API 分析网页数据加载情况，方便开发人员分析、优化网站性能。数据本地处理本地展示，不会远程收集用户的任何数据。
+
 ## 关键性能指标
 
 ![critical-performance-index](https://raw.githubusercontent.com/Godiswill/web-performance-extension/master/demo/01.png)
@@ -85,7 +87,7 @@ DNS，上面优化方式有说道。其他例如脚本加 `async`、`defer` 属�
 
 便于分析网站的一个形态，然后着手对站点重量资源进行性能优化分析。
 
-- 抽样10条最耗时的资源和 ajax 请求。
+- 显示资源加载和 ajax 请求耗时。
 
 ![](https://raw.githubusercontent.com/Godiswill/web-performance-extension/master/demo/05.png)
 
